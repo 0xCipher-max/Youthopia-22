@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import DIT_logo from "./Images/DITU_logo.png";
 
 function Nabvar() {
   return (
@@ -15,25 +16,16 @@ function Nabvar() {
                   <li className="item">Home</li>
                 </a>
                 <a href="https://www.facebook.com">
-                    <li className="item">Events</li>
+                  <li className="item">Events</li>
                 </a>
                 <a href="https://www.google.com">
-                    <li className="item">Gallery</li>
+                  <li className="item">Gallery</li>
                 </a>
               </ul>
             </div>
           </div>
           <div className="right">
-            <div className="search">
-              <img src="./images/Search.svg" alt="" />
-            </div>
-            <div className="cart">
-              <img src="./images/cart.svg" alt="" />
-            </div>
-            <div className="auth">
-              <div className="login">Login</div>
-              <div className="signup">Sign Up</div>
-            </div>
+            <img src={DIT_logo} alt="DIT" />
           </div>
         </div>
       </div>
@@ -41,4 +33,4 @@ function Nabvar() {
   );
 }
 
-export default Nabvar
+export default Nabvar;
