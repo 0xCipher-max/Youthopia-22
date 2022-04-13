@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Le Amatcky';
+    src: local('Le Amatcky Regular'), local('Le-Amatcky-Regular'),
+        url('LeAmatcky.woff2') format('woff2'),
+        url('LeAmatcky.woff') format('woff'),
+        url('LeAmatcky.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

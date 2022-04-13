@@ -1,38 +1,340 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  background-color: #f5f0e4;
+  overflow-x: hidden
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+.left{
+  display: inline;
 }
+.navbar .logo{
+  display: inline;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.navbar{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.navbar .logo img{
+    width: 79.17px;
+    height: 74.38px;
+}
+.nav-items ul{
+  list-style: none;
+  display: inline;
+  position: relative;
+  left: 0;
+}
+.nav-items{
+  display: inline;
+  position: relative;
+  top: -30px;
+  left: 0;
+}
+.nav-items .item {
+  display: inline;
+  position: relative;
+  left: 40.58px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+.nav-items li{
+  margin-left: 60px;
+}
+.right{
+  float: right;
   display: flex;
-  flex-direction: column;
+  margin-right: 70px;
+  margin-top: 24px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.right > div{
+  display: inline;
+  margin-left: 30px;
+}
+.right > div > div{
+  display: inline;
+  margin-left: 30px;
+
+}
+
+
+
+@media screen and (max-width: 1020px) {
+  .right{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .left{
+    display: none;
+  }
+  .logo img{
+    margin-left: 30vw;
+    }
+}
+@media screen and (max-width: 400px) {
+  .left{
+    display: none;
+  }
+  .logo img{
+    margin-left: 25vw;
+    }
+}
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 10vh;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 10vw; */
+  max-height: 100vh;
+  min-height: calc(100vh - 200px);
+}
+.main-screen{
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+html{
+  background: url("../public/images/homepage-gradient-hero-left\ 1\ \(1\).png"), url("../public/images/homepage-gradient-hero-right\ 2.png");
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+
+}
+.main-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: min-content;
+}
+.youthopia{
+  font-family: 'Berkshire Swash', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14vw;
+
+  max-height: 53vw;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #000000;
+  margin: auto;
+}
+.date{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6684045881126173vw;
+
+  color: #000000;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 720px) {
+  .date{
+    display: none;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .container{
+    margin-top: 20vh;
+  }
+}
+ @media screen and (max-width: 1200px) {
+  .container{
+    min-height: calc(100vh - 300px);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container{
+    min-height: calc(100vh - 500px);
+  }
+}
+@media screen and (max-width: 400px) {
+  .container{
+    min-height: calc(100vh - 600px);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container{
+    margin-top: 25vh;
+  }
+}
+
+.register-now{
+  margin-top: 13vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  width: 222px;
+  height: 52px;
+  border-radius: 20px;
+  align-items: center;
+  background-color: #444150;
+}
+.register-now > div{
+  margin-left: 5px;
+}
+.register-now .text{
   color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: red; */
+}
+.register-now .arrow{
+  text-align: center;
+  display: flex;
+  /* background-color: red; */
+}
+.screen-3{
+  min-height: 80vh;
+  max-height: 80vh;
+  background: url("../public/images/dit-gradient-right.png") no-repeat right;
+}
+.about-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  margin: 200px auto 0 auto;
+  max-height: 500px;
+
+}
+.about-container .description{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  text-transform: capitalize  ;
+  font-weight: 400;
+  /* font-size: 1.6vw; */
+  font-size: 32px;
+  line-height: 50px;
+  /* line-height: 2.7vw; */
+  text-align: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.dit-bg img{
+  width: 100vw;
+  margin-top: 100px;
+  background-image: url("../public/images/dit-gradient-left.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.screen-3 .image img{
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+  z-index: -1;
+  top: 1900px;
+}
+@media screen and (max-width: 1024px) {
+  .screen-3{
+      margin-top: -130px;
+
+  }
+}
+@media screen and (max-width: 769px) {
+  .about-container .description{
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .about-container .description{
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 100px; */
+  width: 80vw;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 41px;
+  margin: auto;
+  /* or 170% */
+
+  text-transform: capitalize;
+}
+.address{
+  width: 676px;
+}
+.f-right{
+  display: flex;
+  /* background-color: red; */
+  /* width: 300px; */
+  justify-content: space-between;
+}
+.about-text{
+  color: #444150;
+}
+.others-text{
+  color: #444150;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.content{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18.652px;
+line-height: 60px;
+
+color: rgba(68, 65, 80, 0.8);
+}
+.left-content{
+  padding: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.line{
+  width: 100vw;
+  height: 2px;
+  position: absolute;
+  bottom: 10px;
+  background-color: black;
 }
+.contanier-carousel{
+  height: 50vh;
+  width: 80vw;
+  background-color: #E0E6F7;
+  position: relative;
+  margin-left: 20vw;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.fullvh{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text > a{
+  color: white;
+  text-decoration: none;
+}
+.nav-items > ul > a{
+  text-decoration: none;
+}
+/* .footer{
+  display: none;
+} */
