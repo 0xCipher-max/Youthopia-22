@@ -1,34 +1,34 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  font-size: 25px;
 }
-html{
+html {
   background-color: #f5f0e4;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-.left{
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+.left {
   display: inline;
 }
-.navbar .logo{
+.navbar .logo {
   display: inline;
-
 }
-.navbar{
+.navbar {
   margin-top: 20px;
   margin-left: 20px;
 }
-.navbar .logo img{
-    width: 79.17px;
-    height: 74.38px;
+.navbar .logo img {
+  width: 79.17px;
+  height: 74.38px;
 }
-.nav-items ul{
+.nav-items ul {
   list-style: none;
   display: inline;
   position: relative;
   left: 0;
 }
-.nav-items{
+.nav-items {
   display: inline;
   position: relative;
   top: -30px;
@@ -38,7 +38,7 @@ html{
   display: inline;
   position: relative;
   left: 40.58px;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -49,10 +49,10 @@ html{
 
   color: #000000;
 }
-.nav-items li{
+.nav-items li {
   margin-left: 60px;
 }
-.right{
+.right {
   float: right;
   display: flex;
   margin-right: 70px;
@@ -60,41 +60,38 @@ html{
   align-items: center;
   justify-content: center;
 }
-.right > div{
+.right > div {
   display: inline;
   margin-left: 30px;
 }
-.right > div > div{
+.right > div > div {
   display: inline;
   margin-left: 30px;
-
 }
-
-
 
 @media screen and (max-width: 1020px) {
-  .right{
+  .right {
     display: none;
   }
 }
 
 @media screen and (max-width: 560px) {
-  .left{
+  .left {
     display: none;
   }
-  .logo img{
+  .logo img {
     margin-left: 30vw;
-    }
+  }
 }
 @media screen and (max-width: 400px) {
-  .left{
+  .left {
     display: none;
   }
-  .logo img{
+  .logo img {
     margin-left: 25vw;
-    }
+  }
 }
-.container{
+.container {
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -105,25 +102,25 @@ html{
   max-height: 100vh;
   min-height: calc(100vh - 200px);
 }
-.main-screen{
+.main-screen {
   min-height: 100vh;
   margin: 0;
   padding: 0;
 }
-html{
-  background: url("../public/images/homepage-gradient-hero-left\ 1\ \(1\).png"), url("../public/images/homepage-gradient-hero-right\ 2.png");
+html {
+  background: url("../public/images/homepage-gradient-hero-left\ 1\ \(1\).png"),
+    url("../public/images/homepage-gradient-hero-right\ 2.png");
   background-position: left top, right top;
   background-repeat: no-repeat, no-repeat;
-
 }
-.main-text{
+.main-text {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: min-content;
 }
-.youthopia{
-  font-family: 'Berkshire Swash', cursive;
+.youthopia {
+  font-family: "Berkshire Swash", cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 14vw;
@@ -136,8 +133,8 @@ html{
   color: #000000;
   margin: auto;
 }
-.date{
-  font-family: 'Segoe UI';
+.date {
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 600;
   font-size: 1.6684045881126173vw;
@@ -147,37 +144,37 @@ html{
 }
 
 @media screen and (max-width: 720px) {
-  .date{
+  .date {
     display: none;
   }
 }
 @media screen and (max-width: 1440px) {
-  .container{
+  .container {
     margin-top: 20vh;
   }
 }
- @media screen and (max-width: 1200px) {
-  .container{
+@media screen and (max-width: 1200px) {
+  .container {
     min-height: calc(100vh - 300px);
   }
 }
 @media screen and (max-width: 1024px) {
-  .container{
+  .container {
     min-height: calc(100vh - 500px);
   }
 }
 @media screen and (max-width: 400px) {
-  .container{
+  .container {
     min-height: calc(100vh - 600px);
   }
 }
 @media screen and (max-width: 1024px) {
-  .container{
+  .container {
     margin-top: 25vh;
   }
 }
 
-.register-now{
+.register-now {
   margin-top: 13vh;
   background-color: red;
   display: flex;
@@ -188,54 +185,51 @@ html{
   align-items: center;
   background-color: #444150;
 }
-.register-now > div{
+.register-now > div {
   margin-left: 5px;
 }
-.register-now .text{
+.register-now .text {
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* background-color: red; */
 }
-.register-now .arrow{
+.register-now .arrow {
   text-align: center;
   display: flex;
   /* background-color: red; */
 }
-.screen-3{
+.screen-3 {
   min-height: 80vh;
   max-height: 80vh;
   background: url("../public/images/dit-gradient-right.png") no-repeat right;
 }
-.about-container{
+.about-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 90vw;
   margin: 200px auto 0 auto;
   max-height: 500px;
-
 }
-.about-container .description{
-  font-family: 'Segoe UI';
+.about-container .description {
+  font-family: "Segoe UI";
   font-style: normal;
-  text-transform: capitalize  ;
+  text-transform: capitalize;
   font-weight: 400;
   /* font-size: 1.6vw; */
-  font-size: 32px;
   line-height: 50px;
   /* line-height: 2.7vw; */
   text-align: center;
-
 }
 
-.dit-bg img{
+.dit-bg img {
   width: 100vw;
   margin-top: 100px;
   background-image: url("../public/images/dit-gradient-left.png");
   background-repeat: no-repeat;
   background-position: left;
 }
-.screen-3 .image img{
+.screen-3 .image img {
   width: 100vw;
   height: 80vh;
   position: absolute;
@@ -243,96 +237,129 @@ html{
   top: 1900px;
 }
 @media screen and (max-width: 1024px) {
-  .screen-3{
-      margin-top: -130px;
-
+  .screen-3 {
+    margin-top: -130px;
   }
 }
 @media screen and (max-width: 769px) {
-  .about-container .description{
-    font-size: 28px;
+  .about-container .description {
+    font-size: 20px;
     line-height: 35px;
+  }
+  .footer {
+    font-size: 20px;
+  }
+  .left-content {
+    padding: 8px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 425px) {
-  .about-container .description{
-    font-size: 22px;
+  .about-container .description {
+    font-size: 18px;
     line-height: 28px;
   }
+  .footer {
+    font-size: 18px;
+  }
 }
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   /* padding: 100px; */
   width: 80vw;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
   line-height: 41px;
   margin: auto;
   /* or 170% */
 
   text-transform: capitalize;
 }
-.address{
+.address {
   width: 676px;
 }
-.f-right{
+.f-right {
   display: flex;
   /* background-color: red; */
   /* width: 300px; */
   justify-content: space-between;
 }
-.about-text{
+.about-text {
   color: #444150;
 }
-.others-text{
+.others-text {
   color: #444150;
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-.content{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18.652px;
-line-height: 60px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.652px;
+  line-height: 60px;
 
-color: rgba(68, 65, 80, 0.8);
+  color: rgba(68, 65, 80, 0.8);
 }
-.left-content{
+.left-content {
   padding: 8px;
+  font-size: 20px;
 }
 
-.line{
-  width: 100vw;
+.line {
+  min-width: 100vw;
   height: 2px;
   position: absolute;
   bottom: 10px;
   background-color: black;
 }
-.contanier-carousel{
+.contanier-carousel {
   height: 50vh;
   width: 80vw;
-  background-color: #E0E6F7;
+  background-color: #e0e6f7;
   position: relative;
   margin-left: 20vw;
   border-bottom-left-radius: 50px;
   border-top-left-radius: 50px;
 }
-.fullvh{
-  min-height: 100vh;
+/* GRID */
+.fullvh {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.text > a{
+.events-title {
+  width: 80%;
+  color: #444150;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+}
+.event-grid {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+.event {
+  display: grid;
+  place-items: center;
+}
+.event img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+/*  */
+.text > a {
   color: white;
   text-decoration: none;
 }
-.nav-items > ul > a{
+.nav-items > ul > a {
   text-decoration: none;
 }
 /* .footer{
