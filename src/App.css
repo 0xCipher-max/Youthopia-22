@@ -263,51 +263,8 @@ html {
     font-size: 18px;
   }
 }
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* padding: 100px; */
-  width: 80vw;
-  font-family: "Segoe UI";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 41px;
-  margin: auto;
-  /* or 170% */
-
-  text-transform: capitalize;
-}
-.address {
-  width: 676px;
-}
-.f-right {
-  display: flex;
-  /* background-color: red; */
-  /* width: 300px; */
-  justify-content: space-between;
-}
-.about-text {
-  color: #444150;
-}
-.others-text {
-  color: #444150;
-}
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-.content {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18.652px;
-  line-height: 60px;
-
-  color: rgba(68, 65, 80, 0.8);
-}
-.left-content {
-  padding: 8px;
-  font-size: 20px;
-}
 
 .line {
   min-width: 100vw;

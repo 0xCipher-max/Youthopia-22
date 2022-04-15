@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #444150;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+.f-left {
+  padding: 0 30px;
+}
+.left-list,
+.right-list {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.f-heading {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1100px) {
+  .left-list li,
+  .right-list li,
+  .f-heading {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 646px) {
+  .left-list li,
+  .right-list li,
+  .f-heading {
+    font-size: 10px;
+  }
+}
